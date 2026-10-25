@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d10">
+  <meta name="description" content="The RENIR quick-start guide. Turn on your device, open the app, calibrate, and start using RENIR.">
+  <title>RENIR — Getting started</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#guide" data-i18n="skip">Skip to the instructions</a>
+
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="wordmark" href="#top" aria-label="RENIR home">RENIR<span class="wordmark-dot" aria-hidden="true"></span></a>
+      <span class="header-label" data-i18n="manual">Instruction manual</span>
+      <nav class="header-actions" aria-label="Main navigation">
+        <a class="nav-guide" href="#guide" data-i18n="quickStart">Quick start</a>
+        <button class="icon-button print-button" type="button" title="Print guide" aria-label="Print guide" data-i18n-label="print">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 8V3h10v5M7 17H4V9h16v8h-3M7 14h10v7H7z"/><path d="M17 11h.01" stroke-linecap="round"/></svg>
+        </button>
+        <div class="language-switch" role="group" aria-label="Language">
+          <button type="button" lang="en" data-language="en" aria-pressed="true">EN</button>
+          <button type="button" lang="th" data-language="th" aria-pressed="false">ไทย</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-line" aria-hidden="true"></span><span data-i18n="heroEyebrow">A simple start</span></p>
+        <h1 id="hero-title"><span data-i18n="heroLineOne">Your RENIR.</span><span class="muted-heading" data-i18n="heroLineTwo">Ready to go.</span></h1>
+        <p class="hero-description" data-i18n="heroDescription">From your first power-on to everyday use. Get started in four simple steps.</p>
+        <a class="button primary" href="#guide"><span data-i18n="startGuide">Start the guide</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+        <div class="hero-footnote"><span class="four-dots" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span data-i18n="heroFootnote">One device. Four easy steps.</span></div>
+      </div>
+      <div class="hero-product">
+        <div class="product-halo" aria-hidden="true"></div>
+        <div class="product-orbit orbit-one" aria-hidden="true"></div>
+        <div class="product-orbit orbit-two" aria-hidden="true"></div>
+        <img class="hero-device" src="assets/renir-device.png" width="1613" height="975" alt="Three views of the RENIR wristband with a white module and woven strap" data-i18n-alt="deviceAlt" fetchpriority="high">
+        <span class="product-caption"><span class="small-dot" aria-hidden="true"></span>RENIR <span class="caption-divider" aria-hidden="true">/</span><span data-i18n="wearable">Wrist-worn device</span></span>
+      </div>
+    </section>
+
+    <div class="overview-bar" aria-label="Guide overview">
+      <div class="overview-inner wrap">
+        <a href="#guide" data-jump-step="0"><span>01</span><span data-i18n="shortOne">Turn it on</span><svg class="overview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3v9m-5-6a8 8 0 1 0 10 0" stroke-linecap="round"/></svg></a>
+        <a href="#guide" data-jump-step="1"><span>02</span><span data-i18n="shortTwo">Open the app</span><svg class="overview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4" stroke-linecap="round"/></svg></a>
+        <a href="#guide" data-jump-step="2"><span>03</span><span data-i18n="shortThree">Calibrate</span><svg class="overview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 8V3h5m8 0h5v5M3 16v5h5m8 0h5v-5"/><circle cx="12" cy="12" r="4"/></svg></a>
+        <a href="#guide" data-jump-step="3"><span>04</span><span data-i18n="shortFour">Start using RENIR</span><svg class="overview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+
+    <section class="guide-section wrap" id="guide" aria-labelledby="guide-title">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-i18n="guideEyebrow">The essentials</p><h2 id="guide-title" data-i18n="guideTitle">A little guidance.<br>A simple beginning.</h2></div>
+        <p class="section-description" data-i18n="guideDescription">Follow the steps below.<br>Go at your own pace.</p>
+      </div>
+
+      <div class="guide-layout">
+        <div class="step-list" aria-label="Instruction steps">
+          <button type="button" class="step-tab is-active" id="tab-0" data-step="0" aria-controls="step-0"><span class="step-number">01</span><span class="tab-copy"><strong data-i18n="titleOne">Turn on RENIR</strong><span data-i18n="tabOne">Start with your device</span></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+          <button type="button" class="step-tab" id="tab-1" data-step="1" aria-controls="step-1"><span class="step-number">02</span><span class="tab-copy"><strong data-i18n="titleTwo">Open the app</strong><span data-i18n="tabTwo">Continue on your phone</span></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+          <button type="button" class="step-tab" id="tab-2" data-step="2" aria-controls="step-2"><span class="step-number">03</span><span class="tab-copy"><strong data-i18n="titleThree">Calibrate</strong><span data-i18n="tabThree">Get ready for use</span></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+          <button type="button" class="step-tab" id="tab-3" data-step="3" aria-controls="step-3"><span class="step-number">04</span><span class="tab-copy"><strong data-i18n="titleFour">Start using RENIR</strong><span data-i18n="tabFour">You're ready to begin</span></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+          <p class="sidebar-note" data-i18n="sidebarNote">Keep this guide nearby whenever you need a quick refresher.</p>
+        </div>
+
+        <div class="instruction-frame">
+          <div class="panels">
+            <article class="step-panel" id="step-0" aria-labelledby="step-title-0">
+              <div class="step-visual watch-visual" aria-hidden="true"><span class="visual-index">01</span><img src="assets/renir-device.png" alt="" width="1613" height="975"><span class="visual-symbol power-symbol"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v9m-5-6a8 8 0 1 0 10 0" stroke-linecap="round"/></svg></span></div>
+              <div class="step-content"><p class="step-kicker" data-i18n="stepOne">Step 01 / 04</p><h3 id="step-title-0" data-i18n="titleOne">Turn on RENIR</h3><p data-i18n="bodyOne">Turn on your RENIR device and wear it on your wrist.</p><div class="step-detail"><span class="detail-line" aria-hidden="true"></span><span data-i18n="detailOne">Next, have your phone ready.</span></div></div>
+            </article>
+            <article class="step-panel" id="step-1" aria-labelledby="step-title-1">
+              <div class="step-visual phone-visual" aria-hidden="true"><span class="visual-index">02</span><div class="phone"><div class="phone-speaker"></div><div class="phone-screen app-screen"><div class="app-icon"><span>R</span><i></i></div><span class="phone-brand">RENIR</span><span class="phone-subtitle" data-i18n="phoneOpen">Your companion app</span></div><div class="phone-home"></div></div><span class="schematic-caption" data-i18n="schematic">Illustration</span></div>
+              <div class="step-content"><p class="step-kicker" data-i18n="stepTwo">Step 02 / 04</p><h3 id="step-title-1" data-i18n="titleTwo">Open the app</h3><p data-i18n="bodyTwo">Open the RENIR app on your phone.</p><div class="step-detail"><span class="detail-line" aria-hidden="true"></span><span data-i18n="detailTwo">Continue with calibration before you begin.</span></div></div>
+            </article>
+            <article class="step-panel" id="step-2" aria-labelledby="step-title-2">
+              <div class="step-visual calibration-visual" aria-hidden="true"><span class="visual-index">03</span><div class="calibration-symbol"><span class="corner top-left"></span><span class="corner top-right"></span><span class="corner bottom-left"></span><span class="corner bottom-right"></span><div class="calibration-orbit"><div class="calibration-center"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 15h32M8 33h32M17 8v14m14 4v14"/><circle cx="17" cy="15" r="4" fill="#12181a"/><circle cx="31" cy="33" r="4" fill="#12181a"/></svg></div></div></div><span class="visual-label" data-i18n="calibrationLabel">Ready. Set. Calibrate.</span></div>
+              <div class="step-content"><p class="step-kicker" data-i18n="stepThree">Step 03 / 04</p><h3 id="step-title-2" data-i18n="titleThree">Calibrate</h3><p data-i18n="bodyThree">Complete the calibration process before you start using RENIR.</p><div class="step-detail"><span class="detail-line" aria-hidden="true"></span><span data-i18n="detailThree">Follow the calibration guidance provided with your device and app.</span></div></div>
+            </article>
+            <article class="step-panel" id="step-3" aria-labelledby="step-title-3">
+              <div class="step-visual ready-visual" aria-hidden="true"><span class="visual-index">04</span><div class="ready-rings"><div class="ready-check"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m17 33 10 10 21-23" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div><span class="visual-label" data-i18n="readyLabel">All set.</span></div>
+              <div class="step-content"><p class="step-kicker" data-i18n="stepFour">Step 04 / 04</p><h3 id="step-title-3" data-i18n="titleFour">Start using RENIR</h3><p data-i18n="bodyFour">Once calibration is complete, start using RENIR and view your readings in the app.</p><div class="step-detail"><span class="detail-line" aria-hidden="true"></span><span data-i18n="detailFour">You're ready to go.</span></div></div>
+            </article>
+          </div>
+
+          <div class="guide-controls">
+            <button class="text-button previous-button" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg><span data-i18n="previous">Previous</span></button>
+            <div class="step-progress" aria-hidden="true"><i class="is-active"></i><i></i><i></i><i></i></div>
+            <button class="text-button next-button" type="button"><span data-i18n="next">Next step</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+          </div>
+          <span class="sr-only" id="step-announcement" role="status" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="summary-section wrap" id="at-a-glance" aria-labelledby="summary-title">
+      <div class="summary-heading"><p class="eyebrow" data-i18n="recapEyebrow">At a glance</p><h2 id="summary-title" data-i18n="recapTitle">That's all it takes.</h2><p data-i18n="recapDescription">Your quick reminder, whenever you need it.</p></div>
+      <ol class="summary-steps"><li><span>01</span><strong data-i18n="shortOne">Turn it on</strong></li><li><span>02</span><strong data-i18n="shortTwo">Open the app</strong></li><li><span>03</span><strong data-i18n="shortThree">Calibrate</strong></li><li><span>04</span><strong data-i18n="shortFour">Start using RENIR</strong></li></ol>
+      <button class="print-link print-button" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 8V3h10v5M7 17H4V9h16v8h-3M7 14h10v7H7z"/></svg><span data-i18n="print">Print guide</span><span aria-hidden="true">↗</span></button>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-inner"><div class="footer-brand"><a class="wordmark" href="#top" aria-label="RENIR home">RENIR<span class="wordmark-dot" aria-hidden="true"></span></a><p data-i18n="footerLabel">A simple guide to getting started.</p></div><div class="footer-right"><span data-i18n="footerVersion">Quick-start manual · v1.0</span><a href="#top"><span data-i18n="backTop">Back to top</span><span aria-hidden="true"> ↑</span></a></div></div></footer>
+  <noscript><div class="noscript-note">All four instructions are shown above. Enable JavaScript for the interactive guide and Thai translation.</div></noscript>
+</body>
+</html>
